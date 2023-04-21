@@ -1,9 +1,56 @@
-/* default */
-* {
-    margin: 0;
-    padding: 0;
+/* header */
+
+@media only screen and (max-width: 768px) {
+    .middle {
+        display: none;
+    }
+
+    .header-button {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: flex;
+        color: #fff;
+        font-size: larger;
+    }
+
+    #container .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #header .header-icon a {
+        width: 6rem;
+        display: block;
+    }
+
+    #navbar {
+        display: flex;
+        align-items: self-start;
+    }
 }
-a {
-    text-decoration: none;
-}
-/* End default */
+
+/* @media only screen and (max-width: 576px) {
+    .middle {
+        display: none;
+    }
+
+    .header-button {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: flex;
+    }
+
+    #navbar .header-icon {
+        height: 30px;
+    }
+
+} */
+
+/* end header */
+
+/* features */
+/* end features */
