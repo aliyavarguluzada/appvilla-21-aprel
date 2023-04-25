@@ -244,7 +244,7 @@
  .rows i {
     position: relative;
     top: 8%;
-    left: 9%;
+    left: 38%;
     font-size: 17px;
     color: #fff;
  }
@@ -260,7 +260,7 @@
  .row-item:hover {
     transition: all 0.4s ease-in-out;
     transform: translateY(-5px);
-    box-shadow: 3px 3px 2px 3px #6c757d;
+    box-shadow: 1px 1px 3px #6c757d;
  }
 
 
@@ -360,6 +360,7 @@
  .info {
     display: flex;
     justify-content: space-around;
+    padding: 30px 0px;
  }
 
  /*  */
@@ -465,8 +466,9 @@
  .content a {
     color: #666;
  }
+
  .content {
-   padding: 8px;
+    padding: 8px;
  }
 
  .ayro {
@@ -568,22 +570,208 @@
 
  /* Faq */
  .area {
-   margin-bottom: 20px;
-   border: 1px solid #888;
-   border-radius: 6px;
-   padding: 20px;
-}
-.area i {
-   float: right;
-}
-.s-1 {
-   
-}
-.s-2 {
-   border: 1px solid #888;
-   border-radius: 100%;
-   margin-right: 5px;
-   padding: 5px;
-}
+    margin-bottom: 20px;
+    border: 1px solid #888;
+    border-radius: 6px;
+    padding: 20px;
+ }
+
+ .area i {
+    float: right;
+ }
+
+ .s-1 {}
+
+ .s-2 {
+    border: 1px solid #888;
+    border-radius: 100%;
+    margin-right: 5px;
+    padding: 5px;
+ }
 
  /* End Faq */
+ /* Blogs */
+ #cont-1 {
+    width: 90%;
+    margin: auto;
+ }
+
+ .Blogs {
+    background-color: #F9F9F9;
+    padding-bottom: 80px;
+ }
+
+
+ .sm {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .sm img {
+    width: 100%;
+ }
+
+ #cont-1 a {
+    display: block;
+ }
+
+ #cont-1 p {
+    color: #888;
+ }
+
+ .sm a:nth-child(1) {
+    color: rgb(255, 107, 129);
+ }
+
+ .sm a:nth-child(2) {
+    color: black;
+ }
+
+ .bl {
+    text-align: center;
+    overflow: hidden;
+    padding: 50px 0px;
+
+ }
+
+ .cl-1:hover {}
+
+ .cl-2 {
+    margin: 0px 13px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px #6c757d;
+
+
+ }
+
+ .cl-1 {}
+
+
+
+ /*End Blogs  */
+
+ /* client logo */
+ .logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px;
+ }
+
+ /* End client logo */
+ /* Footer */
+ #footer {
+    background-color: #081828;
+    padding-bottom: 120px;
+ }
+
+ .footer-top {
+    padding: 100px 0px;
+ }
+
+ .left {
+    width: 43%;
+ }
+
+ .logo img {
+    width: 180px;
+    margin-bottom: 20px;
+ }
+
+ .logo p {
+    color: #d2d6dc;
+    padding-bottom: 10px;
+    font-size: 14px;
+    width: 79%;
+    line-height: 1.5rem;
+ }
+
+ .logo i {
+    font-size: 17px;
+    color: #d2d6dc;
+    padding: 25px 20px;
+    padding-left: 0px;
+ }
+
+ .logo .two {
+    color: #d2d6dc;
+    padding-top: 10px;
+    font-size: 14px;
+    width: 79%;
+    line-height: 1.5rem;
+ }
+
+ .right {
+    width: 67%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+ }
+
+ .right .c-1 {
+    display: flex;
+    color: #d2d6dc;
+ }
+
+ .c-1 a {
+    color: #d2d6dc;
+ }
+
+ .c-1 li {
+    padding: 10px 0px;
+
+ }
+
+ .c-1 ul {
+    display: block;
+ }
+
+ .c-1 h3 {
+    padding: 20px 0px;
+ }
+
+ .f {
+    display: flex;
+ }
+.inner-2 {
+   display: block;
+}
+ .inner-content {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #d2d6dc;
+    border-radius: 8px;
+ }
+
+ .input-button * {
+    display: flex;
+    float: right;
+ }
+
+ form {
+    position: relative;
+    float: right;
+ }
+
+.in {
+   height: 48px;
+   width: 300px;
+   padding: 1px 5px;
+   border-radius: 6px;
+   background-color: #394653;
+   color: #fff;
+}
+.in-1 {
+   display: inline-block;
+    background: #ff6b81;
+    color: #fff;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 30px;
+    margin: 0px 10px;
+    border-radius: 6px;
+}
+ /* End Footer */
