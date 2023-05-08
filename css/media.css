@@ -29,9 +29,84 @@
         display: flex;
         align-items: self-start;
     }
+
+    #container-2 h3 {
+        font-size: 40px;
+    }
+
+    #container-2 h2 {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .row-uno {
+        display: block;
+    }
+
+    .row-dos {
+        display: block;
+    }
+
+    .row-item {
+        width: auto;
+        margin: 10px;
+    }
+
+    .side-p2 {
+        display: block;
+        padding: 30px 0px;
+        text-align: center;
+    }
+
+    .side-22 {
+        display: block;
+    }
+
+    .bar h2 {
+        font-size: 32px;
+        padding-top: 20px;
+    }
+
+    .bar p {
+        padding: 10px 0px;
+    }
+
+    .info * {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .pricing {
+        padding: 30px 0px;
+    }
+
+    .pricing h3 {
+        font-size: 30px;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 60PX;
+    }
+
+    .pricing p {
+        display: none;
+    }
+
+    .cards {
+        display: block;
+
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .r-1 {
+        display: block;
+        width: 100%;
+    }
 }
 
-/* @media only screen and (max-width: 576px) {
+@media only screen and (max-width: 1024px) {
     .middle {
         display: none;
     }
@@ -42,15 +117,89 @@
 
     .hamburger-menu {
         display: flex;
+        color: #fff;
+        font-size: larger;
+    }
+
+    .row-item {
+        margin: 10px;
     }
 
     #navbar .header-icon {
         height: 30px;
     }
 
-} */
+    .side-p1 {
+        width: 50%;
+        margin: auto;
+    }
+
+    .main-image {
+        width: 40%;
+        margin: auto;
+    }
+
+    .side-2 {
+        margin-bottom: 50px;
+
+    }
+
+    .side-22 img {
+        width: 50%;
+        margin: auto;
+    }
+
+    .sss {
+        width: 60%;
+        margin: auto;
+    }
+    .cards{display: flex;
+        flex-direction: column;
+      
+    }
+    .card {
+        display: block;
+        width: 85%;
+        margin: auto;
+        margin: 30px 0px;
+    }
+    .sec {
+       display: block;
+    }
+    .overall {
+        margin: 30px 0px;
+    }
+    .overall img {
+        width: 100%;
+    }
+    .content {
+        height: 80px;
+    }
+    .content i {
+        font-size: 30px;
+        padding: 10px;
+    }
+    .brand {
+        display: block;
+    }
+    .brand img {
+        width: 100%;
+    }
+
+
+
+
+    .qaqas img {
+        border-radius: 100%;
+        position: relative;
+        left: 45%;
+        height: 80px;
+        width: 80px;
+     }
+    
+}
 
 /* end header */
 
 /* features */
-/* end features */
+/* end features*/
